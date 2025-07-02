@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.cenario {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.campo, .cidade {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* não repete a imagem */
+  background-position: center;  
+}
+
+.campo {
+  background-image: url('../assets/campo.png');
+  background-color: #7cfc00;
+}
+
+.cidade {
+  background-image: url('../assets/cidade.png');
+  background-color: #b0c4de;
+}
+
+#homem {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  transition: left 5s linear;
+  z-index: 2;
+}
+
+#homem img {
+  width: 400px;
+  height: 400px;
+}
+
+#btnMover {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+
+#homem {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  transition: left 0.3s ease;
+  z-index: 2;
+}
+
+#btnMover {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 3;
+}
